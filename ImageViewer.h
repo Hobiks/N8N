@@ -3,6 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "ImageModel.h"
+#include <string>
 
 class ImageViewer {
 public:
@@ -16,7 +17,7 @@ private:
     void processEvents();
     void update();
     void render();
-    std::string openFileDialog();
+    std::string openFileDialog(); // Ouvrir l'explorateur de fichiers
 };
 
 #endif // IMAGEVIEWER_H
