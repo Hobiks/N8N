@@ -20,4 +20,4 @@ $(TARGET): $(OBJECTS)
 
 # Nettoyage
 clean:
-	rm -f $(OBJECTS) $(TARGET)
+	 rm -f $(OBJECTS) $(TARGET)
