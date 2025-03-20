@@ -1,7 +1,7 @@
 # Variables
 CXX = g++
-CXXFLAGS = -std=c++11 -I/usr/include/opencv4 -I/usr/include
-LDFLAGS = -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -lQt5Widgets
+CXXFLAGS = -std=c++11 -I/usr/include/opencv4 -I/usr/include/x86_64-linux-gnu/Qt5Widgets -I/usr/include/x86_64-linux-gnu/Qt5Core
+LDFLAGS = -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -lQt5Widgets -lQt5Core
 SOURCES = main.cpp image_model.cpp
 HEADERS = image_model.hpp
 OBJECTS = $(SOURCES:.cpp=.o)
